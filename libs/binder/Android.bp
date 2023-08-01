@@ -224,6 +224,9 @@ cc_library {
         "performance*",
         "portability*",
     ],
+    lto: {
+        thin: true,
+    },
 
     afdo: true,
 
